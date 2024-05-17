@@ -1,0 +1,14 @@
+# Python byte-compiled files
+__pycache__/
+
+# Environment files
+*.sqlite3
+.DS_Store
+/.env
+.directory
+.venv/
+venv/
+.vscode/
+_data
+.project
+*.swp
