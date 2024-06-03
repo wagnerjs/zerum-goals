@@ -8,14 +8,14 @@ from jira import JIRA
 
 class JiraIssue():
     OPEN_STATUS = [
-        'Aberto', 'Blocked', 'Backlog', 'Em desenvolvimento',
+        'Aberto', 'Blocked', 'Backlog',
         'Tarefas pendentes', 'Priorizado', 'Preparado', 'Priorizadas',
         'Open Lower Issues'
     ]
     DOING_STATUS = [
         'Em Refinamento', 'Em Revisão', 'Missing Fix', 'Pronto para revisão',
         'Ready to Review', 'Validação', 'Rejeitada', 'Em análise',
-        'Homologação', 'Em andamento'
+        'Homologação', 'Em andamento', 'Em desenvolvimento'
     ]
     CLOSED_STATUS = ['Concluído', 'Cancelado', 'Pronto', 'UPDATE TESTCASE']
 

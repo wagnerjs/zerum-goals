@@ -12,3 +12,4 @@ venv/
 _data
 .project
 *.swp
+data/*.json
